@@ -9,7 +9,7 @@ Bu belge, Bellman'ın "Ormanda Kaybolma" problemi (1955) için Diferansiyel Evri
 ### 1.1 Problem Tanımı
 Düzlemde bilinen bir $F \subset \mathbb{R}^2$ orman geometrisi için, başlangıç konumu ve yönelimi bilinmeyen bir yürüyüşçünün ormandan çıkmasını **en kötü durumda** garanti eden en kısa yol $\gamma$'nın uzunluğu $E(F)$ aranır:
 
-$$E(F) = \inf \left\{ L \ge 0 : \forall g \in \mathcal{G}, \; g(\gamma[0, L]) \not\subset F \right\}$$
+$$E(F) = \inf \left\lbrace L \ge 0 : \forall g \in \mathcal{G}, \quad g(\gamma[0, L]) \not\subset F \right\rbrace$$
 
 ### 1.2 Simetri Grubu Konvansiyonu: $SE(2)$ vs $E(2)$ (Kritik Ayrım)
 Literatürde iki farklı hareket grubu kullanılır; asimetrik geometrilerde bu ayrım esastır:

@@ -4,7 +4,7 @@ A computational geometry and evolutionary search framework for **Bellman's Lost-
 
 Given a known forest shape $F \subset \mathbb{R}^2$, an explorer knows the geometry and dimensions of the forest but is lost at an unknown starting point and unknown orientation. The objective is to determine a planar path $\gamma$ of minimal length $E(\gamma)$ guaranteeing escape from the forest in the worst-case scenario:
 
-$$E(\gamma) = \inf \left\{ L \ge 0 : \forall (R, t) \in \mathcal{G}, \; R \gamma[0, L] + t \not\subset F \right\}$$
+$$E(\gamma) = \inf \left\lbrace L \ge 0 : \forall (R, t) \in \mathcal{G}, \quad R \gamma[0, L] + t \not\subset F \right\rbrace$$
 
 where $\mathcal{G}$ represents the group of allowable spatial motions.
 
